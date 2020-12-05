@@ -1,0 +1,78 @@
+/* purple row-----------------------------------------------------------------*/
+#purplerow {
+  background-color: #6551CC;
+  color: white;
+  text-align: center;
+  font-size: 1.5em;
+  padding-top: 16px;
+  padding-bottom: 8px;
+}
+
+/* login row------------------------------------------------------------------*/
+#loginrow {
+  background-color: whitesmoke;
+  font-size: 16px;
+  color: lightslategray;
+  padding: 0px 16px;
+}
+
+.underlined:hover {
+  text-decoration: underline;
+}
+
+/* search row-----------------------------------------------------------------*/
+#searchrow {
+  margin-top: 16px;
+}
+
+.redbubblelogo {
+  padding-left: 8%;
+  padding-right: 8%;
+}
+
+.searchbar {
+    position: relative;
+    margin-left: 2%;
+}
+
+.searchbar input {
+    background: #F2F2F6;
+    color: #18124F;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+/*add the search icon*/
+.searchbar i {
+    position: absolute;
+    right: 20px;
+    padding: 12px 12px;
+    pointer-events: none;
+}
+
+/*add the purple border*/
+.searchbar:active, .searchbar:hover {
+    border: 3.5px solid #A397E1;
+    border-radius: 8px;
+    outline: none;
+    background-color: white;
+  }
+
+/*heart and shopping cart icon spacing*/
+#heartglyph {
+  margin-top: 5px;
+  padding-left: 5%;
+}
+#cartglyph {
+  margin-top: 5px;
+  padding-left: 2%;
+}
+/*Easily set glyphicon sizes--------------------------------------------------*/
+  .gi-1x{font-size: 1.5em}
+  .gi-2x{font-size: 2em;}
+  .gi-3x{font-size: 3em;}
+  .gi-4x{font-size: 4em;}
+  .gi-5x{font-size: 5em;}

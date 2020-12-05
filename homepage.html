@@ -11,34 +11,46 @@
   </head>
 
 <body>
-  <p>Order by Dec. 5 to get weirdly meaningful gifts by Dec. 25.</p>
-  <!--dark grey top login row-->
-  <div class="container-fluid">
+  <!--TOP ROWS------------------------------------------------------------------------------------------->
+  <!--purple row-->
+  <div id="purplerow">
+    <p>Order by Dec. 5 to get weirdly meaningful gifts by Dec. 25.</p>
+  </div>
+
+  <!--dark grey login row-->
+  <div id="loginrow" class="container-fluid">
     <div class="row">
       <div id="topnavbar" class="collapse navbar-collapse">
         <ul class="nav navbar-nav navbar-right">
-          <li><a href="#">Sell your art</a></li>
-          <li><a href="#">Login</a></li>
-          <li><a href="#">Signup</a></li>
+          <li><a href="#"><span class="underlined">Sell your art</span></a></li>
+          <li><a href="#"><span class="underlined">Login</span></a></li>
+          <li><a href="#"><span class="underlined">Signup</span></a></li>
         </ul>
       </div>
     </div>
   </div>
+
 <!--Redbubble logo and search row-->
-<div class="container-fluid">
+<div id="searchrow" class="container-fluid">
   <div class="row">
 <!--clickable logo-->
 <div class="col-md-2">
-  <img class="img" src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Redbubble_logo.svg/1024px-Redbubble_logo.svg.png" alt="redbubble logo" width="100%">
+  <img class="redbubblelogo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Redbubble_logo.svg/1024px-Redbubble_logo.svg.png" alt="redbubble logo" width="100%">
 </div>
-
 <!-- Search form -->
-<div class="col-md-6 active-#A397E1">
-  <input class="form-control" type="text" placeholder="Search designs and products" aria-label="Search" <span class="glyphicon glyphicon-search"></span>
+<div class="searchbar col-md-8 form-group-lg">
+    <i class="glyphicon glyphicon-search gi-1x"></i>
+    <input type="search"
+           class="form-control"
+           placeholder="Search designs and products" />
 </div>
+<span id="heartglyph" class="glyphicon glyphicon-heart-empty gi-2x"></span>
+<span id="cartglyph" class="glyphicon glyphicon-shopping-cart gi-2x"></span>
+
     </div>
   </div>
-</div>
+
+
 <!-- headlining image -->
 <div class="container-fluid">
   <div class="row">
@@ -49,7 +61,7 @@
 <!--shop product range -->
 <div class="container-fluid">
   <div class="row">
-    
+
 
 
   </body>
