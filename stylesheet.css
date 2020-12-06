@@ -84,7 +84,7 @@ margin-top: 16px;
 }
 
 .dropdown {
-  margin-right: 1.5em;
+  margin-right: 1.4em;
   line-height: 22px
 }
 .dropdown a {
@@ -97,9 +97,83 @@ margin-top: 16px;
   display: block;
 }
 
+/*header image & text---------------------------------------------------------*/
+/* Container holding the image and the text */
+.container {
+  position: relative;
+  text-align: center;
+  border-radius: 5%;
+}
+
+/* text */
+.leftHeader {
+  position: absolute;
+  bottom: 205px;
+  left: 7%;
+  color: #1A1239;
+  text-shadow: 1px 0 #1A1239;
+  letter-spacing:1px;
+  font-weight:bold;
+}
+.leftText {
+  position: absolute;
+  bottom: 135px;
+  left: 7%;
+  font-size: 21px;
+  color: #1A1239;
+}
+.button {
+  position: absolute;
+  bottom: 85px;
+  left: 7%;
+  font-size: 14px;
+  font-weight: bolder;
+  color: #1A1239;
+  background-color: #D38B9F;
+  border: none;
+  border-radius: 10%;
+  padding: 10px;
+}
+
+.button:hover {
+  background: #C28093;
+}
+
+.button:active {
+  outline: none;
+  border: none;
+}
+.button a {
+  color: #1A1239;
+  text-decoration: none;
+}
+
+.button a:hover {
+  color: #1A1239;
+  text-decoration: none;
+}
+
+.pinkHeader {
+  border-radius: 1%;
+}
+
+/*product images--------------------------------------------------------------*/
+#productRow {
+  margin-top: 50px;
+}
+.productImg {
+  border-radius: 2%;
+  margin-bottom: 30px;
+}
+.productName {
+  font-size: 20px;
+  font-weight: bold;
+  padding-bottom: 10px;
+}
+
 /*Easily set glyphicon sizes--------------------------------------------------*/
   .gi-1x{font-size: 1.5em}
   .gi-2x{font-size: 1.8em;}
-  .gi-3x{font-size: 3em;}
+  .gi-3x{font-size: .8em;}
   .gi-4x{font-size: 4em;}
   .gi-5x{font-size: 5em;}
