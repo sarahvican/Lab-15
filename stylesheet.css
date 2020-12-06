@@ -93,6 +93,9 @@ margin-top: 16px;
 #navbar li a {
   color: midnightblue;
 }
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
 
 /*Easily set glyphicon sizes--------------------------------------------------*/
   .gi-1x{font-size: 1.5em}
