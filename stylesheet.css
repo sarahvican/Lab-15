@@ -170,6 +170,14 @@ margin-top: 16px;
   font-weight: bold;
   padding-bottom: 10px;
 }
+.productImg1 {
+	  border-radius: 2%;
+  margin-bottom: 30px;
+}
+.productRow1 {
+	 border-radius: 2%;
+  margin-bottom: 30px;
+}
 
 /*Easily set glyphicon sizes--------------------------------------------------*/
   .gi-1x{font-size: 1.5em}
