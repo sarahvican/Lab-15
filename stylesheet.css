@@ -201,6 +201,22 @@ margin-top: 16px;
   color: #1A1239;
 }
 
+.leftHeader1 {
+  position: absolute;
+  bottom: 205px;
+  left: 7%;
+  color: #1A1239;
+  text-shadow: 1px 0 #ffc3c3;
+  letter-spacing:1px;
+  font-weight:bold;
+}
+.leftText1 {
+  position: absolute;
+  bottom: 135px;
+  left: 7%;
+  font-size: 21px;
+  color: ##ffc3c3;
+}
 /*Easily set glyphicon sizes--------------------------------------------------*/
   .gi-1x{font-size: 1.5em}
   .gi-2x{font-size: 1.8em;}
