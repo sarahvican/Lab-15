@@ -171,6 +171,24 @@ margin-top: 16px;
   padding-bottom: 10px;
 }
 
+/*Shop by theme---------------------------------------------------------------*/
+.themeRow {
+  text-align: left;
+  margin: -12px -12px 6px;
+  padding: 12px;
+}
+.themeButton {
+  background: white;
+  border-radius: 2%;
+  border: 1px solid grey;
+  margin: 8px 32px 8px 4px;
+  padding: 16px 24px;
+}
+
+.themeButton a {
+  color: #1A1239;
+}
+
 /*Easily set glyphicon sizes--------------------------------------------------*/
   .gi-1x{font-size: 1.5em}
   .gi-2x{font-size: 1.8em;}
