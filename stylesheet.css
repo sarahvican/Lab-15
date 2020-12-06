@@ -157,32 +157,92 @@ margin-top: 16px;
   border-radius: 1%;
 }
 
-.headerp {
-	background-color: #ffc3c3
+.centerHeader {
+  position: absolute;
+  bottom: 100px;
+  left: 37%;
+  right: 30%;
+  font-size: 65px;
+  color: #1A1239;
+  font-weight:bolder;
+  text-align: center;
+  line-height: 65px;
+}
+.centerText {
+  position: absolute;
+  bottom: 55px;
+  left: 45%;
+  font-size: 20px;
+  color: #1A1239;
+  font-weight:bolder;
+  text-align: center;
 }
 
 /*product images--------------------------------------------------------------*/
+#shopRange {
+  margin-bottom: -42px;
+  margin-top: 15px;
+  margin-left: -5%;
+  color: #1A1239;
+}
+#shopRange h2 {
+  font-size: 24px;
+  font-weight: bold;
+}
 #productRow {
   margin-top: 50px;
 }
+
 .productImg {
   border-radius: 2%;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 }
 .productName {
   font-size: 20px;
   font-weight: bold;
   padding-bottom: 10px;
 }
-.productImg1 {
-	  border-radius: 2%;
-  margin-bottom: 30px;
+
+.homeProduct {
+  border-radius: 1%;
+  margin-right: 100px;
+  margin-bottom: 10px;
 }
-.productRow1 {
-	 border-radius: 2%;
-  margin-top: 50px;
+.productPanel {
+  position: relative;
+  text-align: center;
+}
+.productName-Home {
+  position: absolute;
+  bottom: 10%;
+  left: 30%;
+  padding: 8px 8px 0px 8px;
+  border-radius: 16px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #1A1239;
+  border: none;
+  box-shadow: 0px 2px 10px 0px #888888;
 }
 
+/*homepage text row-----------------------------------------------------------*/
+#textRow {
+  padding: 20px 0px;
+  margin-bottom: 20px;
+  color: midnightblue;
+  text-align: left;
+  font-size: 16px;
+}
+#textRow p {
+  position: relative;
+  margin-left: 60px;
+  margin-right: 10px;
+}
+#textGlyph {
+  position: relative;
+  top: 50px;
+  left: 5px;
+}
 /*Shop by theme---------------------------------------------------------------*/
 .themeRow {
   text-align: left;
